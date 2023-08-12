@@ -21,7 +21,7 @@ function bisnu_widget_init( $widgets ) {
 	}
 }
 
-add_action( 'admin_init', 'bisnu_widget_init' );
+add_action( 'init', 'bisnu_widget_init' );
 
 
 
